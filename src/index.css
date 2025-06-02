@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+.headerAnima {
+    margin-top: 50px;
+    animation: 1s anima1 linear;
+}
+
+.logo {
+    font-family: "Meddon";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bellota-text-regular-italic {
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.eagle-lake-regular {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.swiper{
+    overflow:unset !important;
+}
+.swiper-pagination{
+    transform: translateY(50px);
+}
+.black-fade{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0, 0, 0) 80%, rgb(0, 0, 0) 100%);
+}
+@keyframes anima1 {
+    0% {
+        margin-top: -50px;
+        opacity: 0.7;
+    }
+
+    100% {
+        margin-top: 50px;
+        opacity: 1;
+    }
+}
