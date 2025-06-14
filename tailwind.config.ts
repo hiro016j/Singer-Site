@@ -1,16 +1,15 @@
 export default {
-    theme: {
-      extend: {
-        keyframes: {
-          'fade-up': {
-            '0%': { opacity: '0', transform: 'translateY(20px)' },
-            '100%': { opacity: '1', transform: 'translateY(0)' },
-          },
-        },
-        animation: {
-          'fade-up': 'fade-up 0.8s ease-out',
+  theme: {
+    extend: {
+      keyframes: {
+        bounceLeft: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(-20px)' }, // 20px chapga siljish
         },
       },
+      animation: {
+        bounceLeft: 'bounceLeft 0.5s ease-in-out',
+      },
     },
-  }
-  
+  },
+}

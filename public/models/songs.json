@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "img":"https://nevomusic.net/wp-content/uploads/2024/02/Sehroj-Gulomov-Ayro-gulim-400x400-1.jpg",
+        "audio":"https://storage.rizanova.uz/uploads/music/mp3/128/Sehroj_Gulomov__Ayro_gulim_1706787821453.mp3",
+        "title":"Ayro Gulim"
+    },
+    {
+        "id":2,
+        "img":"https://www.shazam.com/mkimage/image/thumb/Music122/v4/c9/2a/56/c92a56c3-f893-71bb-7104-c76afe46d038/2_001_Sehroj_G_ulomov-Navro_z.jpg/375x375bb.webp",
+        "audio":"https://storage.rizanova.uz/uploads/music/mp3/128/Sehroj_Gulomov__Navroz_1710418383904.mp3",
+        "title":"Navro'z"
+    },
+    {
+        "id":3,
+        "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/8e/50/678e501e-332a-2362-f56f-abeb03c72e23/2_001_Sehroj_G_ulomov-Layli_Layli.jpg/316x316bb.webp",
+        "audio":"https://storage.rizanova.uz/uploads/music/mp3/128/Sehroj_Gulomov__Shahina_Davirova__LayliLayli_1710129900627.mp3",
+        "title":"Layli-Layli"
+    },
+    {
+        "id":4,
+        "img":"https://www.shazam.com/mkimage/image/thumb/Music122/v4/22/0e/16/220e1676-8a1d-4e40-ce49-f0874546563f/2_001_Sehroj_G_ulomov-Hoji_qilay_ota_onamni.jpg/375x375bb.webp",
+        "audio":"https://storage.rizanova.uz/uploads/music/mp3/128/Sehroj_Gulomov__Hoji_qilay_otaonamni_1707832254502.mp3",
+        "title":"Hoji qilay ota-onamni"
+    },
+    {
+        "id":5,
+        "img":"https://api.rizanova.uz/uploads/music/jpg/1706175634540.jpg",
+        "audio":"https://storage.rizanova.uz/uploads/music/mp3/128/Sehroj_Gulomov__Qoshing_qaro_1706175582342.mp3",
+        "title":"Qoshing qaro"
+    }
+]

@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+.app-background {
+    /* background-image: url('./assets/Noise.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.frame{
+    background: url(./assets/Frame.png) no-repeat;
+    background-size: 100% 100%;
+    background-color: #030712d2;
+}
+.linear1{
+    background: url(./assets/lines.png) no-repeat;
+}
 .headerAnima {
     margin-top: 50px;
     animation: 1s anima1 linear;
@@ -17,6 +32,13 @@
     font-style: italic;
 }
 
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .eagle-lake-regular {
     font-family: "Eagle Lake", serif;
     font-weight: 400;
@@ -29,23 +51,76 @@
     font-weight: 400;
     font-style: normal;
 }
-.swiper{
-    overflow:unset !important;
+
+.swiper {
+    overflow: unset !important;
 }
-.swiper-pagination{
+
+.swiper-pagination {
     transform: translateY(50px);
 }
-.black-fade{
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0, 0, 0) 80%, rgb(0, 0, 0) 100%);
+
+.black-fade {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 80%, rgb(0, 0, 0) 100%);
 }
+
+.songShadov {
+    transition: 0.1s;
+    animation-delay: 0.1s;
+    animation: shadow_anima 1s linear;
+    box-shadow: 0 80px 100px 10px #4a619177;
+}
+
+.openingAnima {
+    transition: 0.1s;
+    animation-delay: 0.2s;
+    animation: opening 0.5s linear;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.customSlider {
+    box-shadow: 0 50px 100px #ffffff00;
+}
+
+.sliderW:hover .customSlider {
+    box-shadow: 0 50px 100px #ffffff;
+}
+
 @keyframes anima1 {
     0% {
         margin-top: -50px;
-        opacity: 0.7;
+        opacity: 0;
     }
 
     100% {
         margin-top: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes shadow_anima {
+    0% {
+        box-shadow: 0 50px 100px 0px #1c2435;
+    }
+
+    100% {
+        box-shadow: 0 80px 100px 10px #4a619177;
+    }
+}
+
+@keyframes opening {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
         opacity: 1;
     }
 }
